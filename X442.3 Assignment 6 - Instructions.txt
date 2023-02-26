@@ -1,0 +1,24 @@
+Written Assignment Module 6 - Instructions
+
+Functions
+
+Coding assignments can be saved as .py files when appropriate or .txt files otherwise, for example, you may want to past the code from multiple .py files into a single .txt file. When you've completed the assignment, attach the file(s) to the drop box for this module, which you'll find near the end of the module. Please be sure to include your last name and the course number in the file name of the document, like so: "your name X442.3 Assignment 6."
+
+    Write a function that accepts the name of a file and returns a tuple containing the number of lines, words, and characters that are in the file. (Hint: Use the split function of the string module to help you count the words in the file.) 
+    Write a function that accepts an arbitrary number of lists and returns a single list with exactly one occurrence of each element that appears in any of the input lists. 
+    Use the map function to add a constant to each element of a list. Perform the same operation using a list comprehension. 
+
+    For example, the list (1, 20, 300, 400) and constant 8, will result in: 9, 28, 308, 408
+    Write a function that will take a variable number of lists. Each list can contain any number of words. This function should return a dictionary where the words are the keys and the values are the total count of each word in all of the lists
+
+    For example, if we are given the following lists:
+
+    wl1 = ["double", "triple", "int", "quadruple"]
+    wl2 = ["double", "home run"]
+    wl3 = ["int", "double", "float"]
+
+    the function should output the following dictionary (The order of the words is not important):
+    {'float': 1, 'int': 2, 'quadruple': 1, 'home run': 1, 'triple': 1, 'double': 3}
+
+    Note, you may have to create an empty dictionary first (for example: dict = {}).
+    (Optional) Write a function that combines several dictionaries by creating a new dictionary with all the keys of the original ones. If a key appears in more than one input dictionary, the value corresponding to that key in the new dictionary should be a list containing all the values encountered in the input dictionaries that correspond to that key.
