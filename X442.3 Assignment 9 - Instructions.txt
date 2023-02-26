@@ -1,0 +1,11 @@
+Written Assignment Module 9 - Instructions
+
+Using Operating System Modules
+Complete this assignment and attach the .py and/or .txt file(s) to the drop box for this module, which you'll find near the end of the module. Please be sure to include your last name and the course number in the file name of the document, like so: "your name X442.3 Assignment 9."
+
+    Using os.walk, write a script that will print the filenames of zero length files. It should also print the count of zero length files.
+    Write a script that will list and count all of the images in a given HTML web page/file. You can assume that:
+
+        Each image file is enclosed with the tag <img and ends with >
+        The HTML page/file is syntactically correct
+
