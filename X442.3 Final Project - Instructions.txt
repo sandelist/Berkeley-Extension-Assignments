@@ -1,0 +1,11 @@
+Final Project - Instructions
+
+
+    A file with a name like picture.jpg is said to have an extension of "jpg"; i.e. the extension of a file is the part of the file after the final period in its name. Write a program that takes as an argument the name of a directory (folder) and then finds the extension of each file. Then, for each extension found, it prints the number of files with that extension and the minimum, average, and maximum size for files with that extension in the selected directory.
+    Write a text analyzer. It should be in a form of a function that takes a file name as an argument. It should read and analyze a text file and then print:
+
+        the top 5 most frequently used words in the file
+        the number of times the top 5 words are used
+        should be sorted by most frequently used count
+        the longest word in the document
+        the average word size
