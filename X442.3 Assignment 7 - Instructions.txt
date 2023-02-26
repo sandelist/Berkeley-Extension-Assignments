@@ -1,0 +1,8 @@
+Written Assignment Module 7 - Instructions
+
+Error Handling
+
+Coding assignments can be saved as .py files when appropriate or .txt files otherwise, for example, you may want to past the code from multiple .py files into a single .txt file. When you've completed the assignment, attach the file(s) to the drop box for this module, which you'll find near the end of the module. Please be sure to include your last name and the course number in the file name of the document, like so: "your name X442.3 Assignment 7."
+
+    Suppose you want to determine whether an arbitrary text string can be converted to a number. Write a function that uses a try/except clause to solve this problem. Can you think of another way to solve this problem?
+    The input function will read a single line of text from the terminal. If you wanted to read several lines of text, you could embed this function inside a while loop and terminate the loop when the user of the program presses the interrupt key (Ctrl-C under UNIX, Linux and Windows.) Write such a program, and note its behavior when it receives the interrupt signal. Use a try/except clause to make the program behave more gracefully.
